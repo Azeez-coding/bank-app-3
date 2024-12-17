@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191e27;
+    font-family: Montserrat;
+}
+
+form {
+    inline-size: 600px;
+    margin: 100px auto 0px auto;
+    padding: 60px;
+    box-shadow: 0 4px 8px 0 #cfbe06, 0 4px 8px 0 #30475e;
+    color: rgb(255, 234, 0);
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box1 {
+    inline-size: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 15px;
+    background-color: rgb(6, 19, 28);
+    color: rgb(255, 255, 255);
+}
+
+.div1 {
+    display: inline-block;
+}
+
+.box2 {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 0 15px 0;
+    background-color: rgb(6, 19, 28);
+    color: rgb(255, 255, 255);
+}
+
+.box1:hover {
+    background-color: rgb(6, 19, 28);
+}
+
+
+.box2:hover {
+    background-color: rgb(6, 19, 28);
+}
+
+.btn {
+    inline-size: 49%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(6, 19, 28);
+    font-size: 18px;
+    color: rgb(255, 247, 0);
+    font-family: Montserrat;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(255, 247, 0);
+    color: #30475e;
+}
+
+.btn:active {
+    background-color: rgb(6, 19, 28);
+    color: rgb(255, 247, 0);
+}
